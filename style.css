@@ -1,0 +1,132 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Lora', serif;
+        background-color: #fdfdfd;
+        color: #333;
+        line-height: 1.7;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    
+    .cabecalho-principal {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+        padding: 25px;
+        text-align: center;
+        border-bottom: 4px solid #e74c3c;
+    }
+    .cabecalho-principal h1 {
+        font-size: 2.8em;
+        font-weight: 400;
+    }
+
+    
+    .info-grupo {
+        max-width: 800px;
+        margin: 30px auto -20px auto;
+        padding: 20px;
+        text-align: center;
+        background-color: #ecf0f1;
+        border-radius: 8px;
+    }
+    .info-grupo h2 {
+        font-size: 1.4em;
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+    .info-grupo ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .info-grupo li {
+        font-family: 'Lora', serif;
+        font-size: 1.1em;
+        color: #34495e;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    
+    .item-tema {
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #bdc3c7;
+    }
+    .titulo-tema {
+        font-size: 1.8em;
+        color: #c0392b;
+        margin: 0 0 15px 0;
+        font-weight: 700;
+    }
+    .conteudo-tema p {
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+    .link-tema {
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+    }
+    .link-tema:hover {
+        opacity: 0.7;
+    }
+
+    
+    .secao-respostas {
+        margin-top: 60px;
+        padding-top: 20px;
+        border-top: 3px solid #2c3e50;
+    }
+    .titulo-respostas {
+        text-align: center;
+        font-size: 2.2em;
+        color: #2c3e50;
+        margin: 40px 0;
+    }
+    .respostas-tema {
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .respostas-tema h3 {
+        font-size: 1.6em;
+        color: #2980b9;
+        margin-bottom: 20px;
+    }
+    .respostas-tema p {
+        color: #34495e;
+        font-size: 1.1em;
+        margin-bottom: 15px;
+        padding-left: 25px;
+        border-left: 4px solid #e74c3c;
+        font-style: italic;
+    }
+    .link-voltar {
+        display: block;
+        margin-top: 20px;
+        text-align: right;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9em;
+        color: #2980b9;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+        font-weight: bold;
+    }
+    .link-voltar:hover {
+        opacity: 0.7;
+    }
